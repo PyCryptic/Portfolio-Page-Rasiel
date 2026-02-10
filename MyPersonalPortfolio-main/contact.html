@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content />
+    <meta name="author" content="Rasiel Moser" />
+    <title>Kontakt</title>
+    <!--  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" /> -->
+    <!-- Font Awesome icons-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <!--Bootstrap)-->
+     <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<style>
+
+</style>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">Rasiel Moser</span>
+            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
+                    src="assets/img/profile.png" alt="..." /></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#about">About Me </a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#projekts">projects</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#skills">skills</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#interests">interests</a>
+                </li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="imprint.html">imprint</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger"
+                        href="./Privacy-Policy.html">Privacy-Policy</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="contact.html">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Page Content-->
+    <h1>contact form</h1>
+
+    <form class="contact-form" action="send_email.php" method="POST">
+        <label class="contact-form__label" for="name">name</label>
+        <input class="contact-form__input" type="text" id="name" name="name" placeholder="your name" required>
+
+        <label class="contact-form__label" for="email">E-Mail</label>
+        <input class="contact-form__input" type="email" id="email" name="email" placeholder="your email" required>
+
+        <label class="contact-form__label" for="Nachricht">Message</label>
+        <textarea class="contact-form__textarea" id="Nachricht" name="Nachricht" rows="5"
+            placeholder="your message..." required></textarea>
+
+
+        <!-- reCAPTCHA -->
+        <div class="contact-form__recaptcha g-recaptcha" data-sitekey="6LdxLAgsAAAAADAlcbuLbi2QxhJCdSyddOqjsZWD"></div>
+
+        <button class="contact-form__button" type="submit">send</button>
+    </form>
+
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</body>
+
+</html>
