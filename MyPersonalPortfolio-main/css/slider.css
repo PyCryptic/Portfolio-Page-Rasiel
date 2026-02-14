@@ -1,0 +1,59 @@
+/*.slider-container {
+    text-align: center;
+    max-width: 100%;
+}
+
+#slider-img {
+    width: 20em;
+    max-width: 600px; 
+    height: auto;
+    border-radius: 8px;
+    transition: opacity 0.5s; 
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #2a763d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+*/
+
+/* the  background -Design of the modal */
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9); 
+}
+
+/* The enlarged image */
+.modal-inhalt {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 5%;
+}
+
+/* Close-Button */
+.schliessen {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
