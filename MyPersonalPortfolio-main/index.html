@@ -102,7 +102,7 @@
                             Dynamic content management was achieved through the use of arrays, event handling, and DOM
                             manipulation in JavaScript, making the website interactive, maintainable, and user-friendly.
                         </p>
-                  <!--      <div class="slider-container">
+                        <!--      <div class="slider-container">
                             <img id="slider-img" src="bild1.jpg" alt="Slider Bild">
 
                             <div class="controls">
@@ -112,26 +112,33 @@
                             <br>
                         </div> -->
 
-                        <div id="meinModal" class="modal">
-    <span class="schliessen" onclick="schließeModal()">&times;</span>
-    <img class="modal-inhalt" id="modal-bild">
-</div>
                         <a href="https://www.innoversa-factory.com/" class="button-link" target="_blank"
                             rel="noopener noreferrer">
                             To the Innoversa Factory website
                         </a>
+
+                      <div class="slider-container">
+    <img id="slider-img" class="clickable-image" src="assets/img/profile.png" alt="Innoversa Factory">
+
+    <div class="controls">
+        <button onclick="vorherigesBild()"> Back </button>
+        <button onclick="naechstesBild()"> Further </button>
+    </div>
+</div>
+
+<div id="meinModal" class="modal">
+    <span class="schliessen" onclick="schließeModal()">&times;</span>
+    <img class="modal-inhalt" id="modal-bild">
+</div>
+
+
+
+
+                        <!-----Placeholder-->
                     </div>
-                </div>
-
-
- 
-
-
-                <!-----Placeholder-->
-            </div>
         </section>
-     
-  <!--<script src="js/accessibility-menu.min.js"></script> -->
+
+        <!--<script src="js/accessibility-menu.min.js"></script> -->
         <hr class="m-0" />
         <!--skills-->
         <section class="resume-section" id="skills">
@@ -184,6 +191,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <script src="js/slider-image.js"></script>
 </body>
 
 </html>

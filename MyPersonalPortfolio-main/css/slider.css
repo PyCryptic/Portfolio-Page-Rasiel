@@ -1,17 +1,22 @@
-/*.slider-container {
+
+/* the  background -Design of the modal */
+.slider-container {
+    max-width: 33%;
+    margin: 20px auto;
     text-align: center;
-    max-width: 100%;
 }
 
 #slider-img {
-    width: 20em;
-    max-width: 600px; 
+    width: 100%;
     height: auto;
+    cursor: pointer;
     border-radius: 8px;
-    transition: opacity 0.5s; 
 }
 
 .controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
     margin-top: 10px;
 }
 
@@ -24,36 +29,39 @@ button {
     border-radius: 5px;
 }
 
-*/
-
-/* the  background -Design of the modal */
 .modal {
-    display: none; 
+    display: none;
     position: fixed;
     z-index: 1000;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.9); 
+   background-color: rgba(0, 0, 0, 0.85);
+   display: none;          /* Initial versteckt */
+    justify-content: center
 }
 
-/* The enlarged image */
 .modal-inhalt {
     margin: auto;
     display: block;
-    width: 80%;
-    max-width: 800px;
+   max-width: 500px; /* Begrenzt die Breite auf Desktop */
+    max-height: 80vh;
     margin-top: 5%;
+    border-radius: 4px;
 }
 
-/* Close-Button */
 .schliessen {
     position: absolute;
-    top: 20px;
+    top: 1em;
     right: 35px;
-    color: white;
+    color: rgb(244, 208, 9);
     font-size: 40px;
-    font-weight: bold;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .slider-container {
+        max-width: 100%;
+    }
 }
