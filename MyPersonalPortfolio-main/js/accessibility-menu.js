@@ -1,6 +1,6 @@
 const accessibilityMenuStyles = `
     :root {
-      --acc_color_1: #000;
+      --acc_color_1: #000000;
       --acc_color_2: #fff;
       --border_radius: 25px;
     }
