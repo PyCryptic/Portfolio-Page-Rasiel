@@ -1,0 +1,48 @@
+   body {
+       background-color: #94825c;
+       font-family: Arial, sans-serif;
+       text-align: center;
+       padding-top: 50px;
+       font-family: Arial, Helvetica, sans-serif;
+   }
+
+   img {
+       max-width: 33%;
+       height: auto;
+   }
+
+@media (max-width: 768px) {
+    img {
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    img {
+        max-width: 50%; 
+    }
+}
+
+/*  Smartphones - Bildschirm schmaler als 600px */
+@media (max-width: 600px) {
+    img {
+        max-width: 100%; 
+    }
+}
+
+   a {
+       display: inline-block;
+       margin-top: 20px;
+       padding: 12px 30px;
+       background-color: #b8b862;
+       color: #fff;
+       text-decoration: none;
+       border-radius: 8px;
+       font-weight: bold;
+       font-size: 1.2rem;
+   }
+
+   a:hover {
+       /*background-color: #dbe924; */
+   }
