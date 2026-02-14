@@ -1,7 +1,6 @@
- /* Wrapper für die Dankesnachricht */
+
  #main.wrapper {
      background-color: #f9f9f9;
-     /* heller Hintergrund */
      padding: 60px 0;
      font-family: Arial, sans-serif;
      text-align: center;
@@ -14,7 +13,6 @@
 
  #main.wrapper .wrapper.style2.special {
      background-color: #ffffff;
-     /* weiße Box */
      padding: 40px 30px;
      border-radius: 12px;
      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
@@ -23,7 +21,6 @@
  #main.wrapper .wrapper.style2.special .inner header.major.narrow h2 {
      font-size: 2rem;
      color: #4CAF50;
-     /* grün für Erfolg */
      margin-bottom: 20px;
  }
 
