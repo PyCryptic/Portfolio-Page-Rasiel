@@ -24,7 +24,7 @@
     }
 }
 
-/*  Smartphones - Bildschirm schmaler als 600px */
+
 @media (max-width: 600px) {
     img {
         max-width: 100%; 
